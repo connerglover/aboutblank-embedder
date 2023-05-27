@@ -27,10 +27,8 @@ function create() {
     iframe.style.margin = "0";
     iframe.src = url;
     win.document.body.appendChild(iframe);
-  } else {
-    alert("Please Enter a Valid URL");
-  }
-  if (confirm("Would you like to close after making the about blank page?")) {
     window.close();
+  } else {
+    alert("Please enter a valid URL");
   }
 }

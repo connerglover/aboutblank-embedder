@@ -6,6 +6,7 @@ body {
 }
 
 #mainInputs {
+  width: 31vw;
   position: absolute;
   left: 50%;
   top: 50%;
